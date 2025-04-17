@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Easter Egg Challenge</title>
+
+  <!-- Librerie coriandoli -->
+  <script src="https://www.iolecal.it/blog/posts300/post303/JSFX303_Layer.js"></script>
+  <script src="https://www.iolecal.it/blog/posts300/post303/JSFX303_Browser.js"></script>
+  <script src="https://www.iolecal.it/blog/posts300/post303/JSFX303_Falling.js"></script>
+</head>
+<body style="font-family: Comic Sans, sans-serif; text-align: center; margin-top: 20px; background-color: #1E90FF; position: relative; ">
+
+  <!-- Logo -->
+  <img src="https://i.pinimg.com/originals/d1/3c/57/d13c5792fcb72ec74d5ebe275a04463a.gif"
+       alt="Digitality"
+       style="width: 300px; margin-bottom: 30px; border-radius: 15px;">
+
+  <h1>This challenge has been ...</h1>
+
+  <!-- Bottone -->
+  <button onclick="showEasterEgg()" 
+          style="padding: 10px 20px; font-size: 20px; background-color: #FFDB58; border: none; cursor: pointer; border-radius: 5px;">
+    Click here to find out 
+  </button>
+
+  <!-- GIF -->
+  <div id="eggGif" style="display: none; margin-top: 30px; width: 500px; margin-left: auto; margin-right: auto; border-radius: 15px;">
+    <img src="https://media1.tenor.com/m/AH__sBcB5q0AAAAd/how-i-met-your-mother-legendary.gif"
+         alt="Barney Legendary"
+         width="400"
+         style="border-radius: 15px;">
+  </div>
+
+  <script>
+    function showEasterEgg() {
+      // Mostra la gif
+      document.getElementById("eggGif").style.display = "block";
+
+      // Avvia coriandoli
+      JSFX303.Falling(2, "01");
+      JSFX303.Falling(2, "02");
+      JSFX303.Falling(2, "03");
+      JSFX303.Falling(2, "04");
+      JSFX303.Falling(2, "05");
+      JSFX303.Falling(2, "06");
+      JSFX303.Falling(2, "07");
+      JSFX303.Falling(2, "08");
+      JSFX303.Falling(2, "09");
+      JSFX303.Falling(2, "10");
+      JSFX303.Falling(2, "12");
+      JSFX303.Falling(2, "14");
+      JSFX303.Falling(2, "16");
+      JSFX303.Falling(2, "18");
+      JSFX303.Falling(2, "29");
+      JSFX303.Falling(2, "31");
+      JSFX303.Falling(2, "33");
+      JSFX303.Falling(2, "35");
+    }
+  </script>
+
+</body>
+</html>
